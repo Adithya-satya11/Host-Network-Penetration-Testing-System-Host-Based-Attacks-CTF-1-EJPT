@@ -79,8 +79,6 @@ davtest -auth bob:password_123321 -url http://target1.ine.local/webdav/
 
 ![image alt](https://github.com/Adithya-satya11/images/blob/main/Pasted%20image%2020251120103908.png?raw=true)
 
-The results showed that I could upload files. I then used cadaver to upload a malicious ASP shell (webshell.asp) to gain remote execution.
-
 ![image alt](https://github.com/Adithya-satya11/images/blob/main/Pasted%20image%2020251120103952.png?raw=true)
 
 
@@ -89,7 +87,8 @@ From web we can see the uploaded file directory
 ![image alt](https://github.com/Adithya-satya11/images/blob/main/Pasted%20image%2020251120104123.png?raw=true)
 
 
-Let's have a try with `cadaver` command
+The results showed that I could upload files. I then used cadaver to upload a malicious ASP shell (webshell.asp) to gain remote execution.
+
 
 ```
 cadaver http://target1.ine.local/webdav/
